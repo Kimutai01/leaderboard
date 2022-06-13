@@ -13,6 +13,9 @@
   border: 1px solid black;
   box-sizing: border-box;
 }
+.score-title {
+  margin-right: 20px;
+}
 .display ul {
   padding: 0;
   margin: 0;
@@ -40,4 +43,7 @@
 }
 input {
   margin-bottom: 10px;
+}
+.submit-btn {
+  margin-left: 130px;
 }
