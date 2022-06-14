@@ -63,6 +63,9 @@
   width: 60%;
   align-self: baseline;
 }
+.Add-form h3 {
+  font-size: 160%;
+}
 
 input {
   margin-bottom: 10px;
