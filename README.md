@@ -2,11 +2,11 @@
 
 # Leaderboard
 
-An application which shows shows using api
+An application which shows scores using api
 
 ## Live Demo
 
-[Live Demo Link](https://kimutai01.github.io/todo-list/)
+[Live Demo Link]()
 
 ![screenshot](./leader.png)
 
