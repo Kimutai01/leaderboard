@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Handlee&family=Indie+Flower&family=Josefin+Slab:ital,wght@0,300;0,400;0,700;1,500&family=Patrick+Hand&family=Rancho&family=Rubik:wght@400;500;700&display=swap");
+* {
+  font-family: "Rancho", cursive;
+  font-size: 105%;
+}
+
+.title {
+  font-size: 250%;
+  margin-left: 30px;
+}
+
 .score-header {
   display: flex;
   align-items: baseline;
@@ -18,6 +29,10 @@
 .score-title {
   margin-right: 20px;
 }
+.score-title h3 {
+  font-size: 160%;
+  margin-right: 250px;
+}
 
 .display ul {
   padding: 0;
@@ -35,7 +50,7 @@
 
 .page {
   display: flex;
-  gap: 30px;
+  gap: 70px;
   align-items: baseline;
 }
 
@@ -45,15 +60,15 @@
 }
 
 .form-sec {
-  display: grid;
-  grid-template-columns: auto;
+  width: 60%;
   align-self: baseline;
 }
 
 input {
   margin-bottom: 10px;
+  width: 50%;
 }
 
 .submit-btn {
-  margin-left: 130px;
+  margin-left: 325px;
 }
