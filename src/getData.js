@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-cycle
 import displayItem from './functionality.js';
 
-async function getData() {
+const getData = async () => {
   const response = await fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nOWB0WyD6z5bEYJ0J5QV/scores/'
   );
@@ -12,5 +12,5 @@ async function getData() {
   data.result.forEach((score) => {
     displayItem(score);
   });
-}
+};
 export default getData;
